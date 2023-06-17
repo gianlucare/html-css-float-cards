@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Geologica', sans-serif;
+}
+
+header {
+    text-align:center;   
+}
+
+h1 {
+    color:rgb(228, 65, 209);
+}
+
+.debug {
+    /*border: 2px dashed black;
+    min-height: 30px;*/
+}
+
+.clearfix::after {
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.container {
+   max-width: 1180px;
+   margin:0 auto;
+   padding:0 15px;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.row:after {
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.col1-3{
+    width: calc(100% / 3);
+    float: left;
+    padding: 0 15px;
+    margin:15px 0;
+}
+
+.card{
+    background-color:black;
+    color:white;
+    height:100px;
+}
+
+.card-image {
+    height:100%;
+    width:auto;
+    float:left;
+    margin-right:15px;
+}
+
+.card-contant {
+    padding:10px;
+    height:100%;
+}
